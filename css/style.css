@@ -1,4 +1,4 @@
-img {
+.navbar-brand img {
     width: 20%;
 }
 
@@ -20,6 +20,15 @@ img {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+}
+.images img {
+    max-width: 200px;
+    transition: 1s;
+    padding: 10px;
+}
+.images img:hover {
+    filter: grayscale(50%);
+    transform: scale(1.1);
 }
 footer {
     background-color: #4e555b;
