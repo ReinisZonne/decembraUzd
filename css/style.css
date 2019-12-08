@@ -10,7 +10,7 @@
     padding-right: 20px;
 }
 .navbar-link {
-    fontsize: 1.1em !important;
+    font-size: 1.1em !important;
 }
 .carousel-inner img{
     width: 100%;
@@ -21,10 +21,27 @@
     top: 50%;
     transform: translateY(-50%);
 }
+
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+.padding {
+    padding-bottom: 2rem;
+}
+.GoogleMaps {
+    margin-top: 50px;
+}
 .images img {
-    max-width: 200px;
+    max-width: 300px;
     transition: 1s;
-    padding: 10px;
+    padding: 20px 20px 20px 20px;
+}
+.title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .images img:hover {
     filter: grayscale(50%);
@@ -32,5 +49,11 @@
 }
 footer {
     background-color: #4e555b;
-    padding-top: 10px;
+    padding-top: 2rem;
+}
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
 }
